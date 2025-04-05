@@ -1,0 +1,9 @@
+# This file is not overwritten, so edit it as you like.
+# Manual https://i3wm.org/docs/userguide.html
+
+# Define global variables. "You cannot use in the parent file a variable that
+# was defined within an included file."
+set $mod Mod4
+
+# Include other configuration files
+include ~/.config/i3/*.conf

@@ -1,0 +1,6 @@
+[Unit]
+Description=Battery Low Warning
+
+[Service]
+Type=oneshot
+ExecStart=/home/mentat/.battery/battery-warning.sh
