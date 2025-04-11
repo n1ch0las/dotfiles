@@ -23,6 +23,7 @@ ffmpeg
 gimp
 graphicsmagick
 grub
+gst-plugins-bad
 htop
 i3-wm
 i3blocks
@@ -51,6 +52,7 @@ pavucontrol
 picom
 pkgstats
 pulseaudio
+pulseaudio-bluetooth
 rsync
 scrot
 smartmontools
