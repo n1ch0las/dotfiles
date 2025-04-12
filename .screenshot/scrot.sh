@@ -7,14 +7,30 @@ file="$dir/scrot_$(date +%F_%H:%M:%S).png"
 # Display name (from xrandr)
 display="eDP-1"
 
-# Take screenshot based on mode argument
+# Argument passed to the script
 mode=$1
+
+# Take screenshot based on the mode argument
 case $mode in
   "window")
     scrot --focused --border "$file"
     ;;
   "selection")
+    # Kill picom if running as it interferes with selection
+    if pgrep -x "picom" > /dev/null; then
+        killall picom
+        picom_was_running=true
+    else
+        picom_was_running=false
+    fi
+
+    # Screenshot of selected region
     scrot --select "$file"
+    
+    # Restart picom if necessary
+    if [ "$picom_was_running" = true ]; then
+        picom &
+    fi
     ;;
   *)
     # default to fullscreen shot
