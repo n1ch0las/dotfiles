@@ -1,5 +1,6 @@
 adobe-source-han-sans-jp-fonts
 adobe-source-han-serif-jp-fonts
+arandr
 arp-scan
 base
 base-devel
@@ -29,6 +30,7 @@ intel-media-driver
 intel-ucode
 iw
 iwd
+jq
 less
 libnotify
 libva-intel-driver
