@@ -1,5 +1,6 @@
 #!/bin/bash
 
+MAX=100
 SINK="@DEFAULT_SINK@"
 STEP=10 # volume step size
 SOUND_FILE="$HOME/.volume/blip.mp3"
@@ -13,8 +14,8 @@ IS_MUTED=$(pactl get-sink-mute $SINK | grep -oP '(yes|no)')
 # script takes an argument
 if [ "$1" == "up" ]; then
     NEW_VOLUME=$((CURRENT_VOLUME + STEP))
-    if [ "$NEW_VOLUME" -gt 100 ]; then
-        NEW_VOLUME=100
+    if [ "$NEW_VOLUME" -gt $MAX ]; then
+        NEW_VOLUME=$MAX
     fi
 elif [ "$1" == "down" ]; then
     NEW_VOLUME=$((CURRENT_VOLUME - STEP))
