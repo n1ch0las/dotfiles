@@ -10,7 +10,7 @@ if [ -n "$CONKY_PID" ]; then
   # Kill it
   kill "$CONKY_PID"
 else
-  # Launch conky
+  # Launch conky and bring to front
   conky -c "$CONFIG_PATH" -D && xdotool search --sync --classname "conky" windowraise
 fi
 
