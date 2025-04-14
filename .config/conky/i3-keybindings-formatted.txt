@@ -1,0 +1,30 @@
+$mod+Shift+p → picom                                       $mod+f → fullscreen toggle
+$mod+p → kill picom                                        $mod+s → layout stacking
+$mod+g → conky                                             $mod+w → layout tabbed
+$mod+Shift+g → kill conky                                  $mod+e → layout toggle split
+F5 → pavucontrol                                           $mod+Shift+space → floating toggle
+$mod+Return → terminal                                     $mod+space → focus mode_toggle
+$mod+d → dmenu_run                                         $mod+Shift+s → sticky toggle
+$mod+BackSpace → dunstctl close                            $mod+Shift+minus → move scratchpad
+$mod+Shift+BackSpace → dunstctl close-all                  $mod+minus → scratchpad show
+$mod+Print → scrot fullscreen                              $mod+a → focus parent
+$mod+Shift+Print → scrot selection                         $mod+c → focus child
+$mod+Ctrl+Print → scrot window                             $mod+u → border none
+F4 → exec arandr                                           $mod+y → border normal
+F12 → nmtui                                                $mod+r → mode "resize"
+$mod+Shift+Delete → htop                                   $mod+0 → mode "$mode_system"
+$mod+apostrophe → Chrome                                   $mod+1 → workspace 1
+$mod+Shift+c → reload config                               $mod+2 → workspace 2
+$mod+Shift+r → restart i3                                  $mod+3 → workspace 3
+$mod+q → kill window                                       $mod+4 → workspace 4
+$mod+Shift+q → clear workspace                             $mod+5 → workspace 5
+$mod+Left → focus left                                     $mod+6 → workspace 6
+$mod+Down → focus down                                     $mod+Shift+1 → move container to ws1
+$mod+Up → focus up                                         $mod+Shift+2 → move container to ws2
+$mod+Right → focus right                                   $mod+Shift+3 → move container to ws3
+$mod+Shift+Left → move left                                $mod+Shift+4 → move container to ws4
+$mod+Shift+Down → move down                                $mod+Shift+5 → move container to ws5
+$mod+Shift+Up → move up                                    $mod+Shift+6 → move container to ws6
+$mod+Shift+Right → move right                              $mod+Ctrl+Right → workspace next
+$mod+h → split h                                           $mod+Ctrl+Left → workspace prev
+$mod+v → split v                                           
