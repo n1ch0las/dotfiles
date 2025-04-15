@@ -1,0 +1,43 @@
+Processes
+----------------------------------------------------------------------------------------------------------------------
+$mod+Shift+p              → Start Picom                       $mod+d                    → dmenu-run                     
+$mod+p                    → Stop Picom                        $mod+BackSpace            → Close last message            
+$mod+Shift+g              → Kill Conky                        $mod+Shift+BackSpace      → Close all messages            
+XF86AudioRaiseVolume      → Raise volume                      $mod+Print                → scrot                         
+XF86AudioLowerVolume      → Lower volume                      $mod+Shift+Print          → scrot --select                
+XF86AudioMute             → Toggle mute                       $mod+Ctrl+Print           → scrot --focused               
+F5                        → Pavucontrol                       F4                        → arandr                        
+XF86MonBrightnessUp       → Brightness up                     F12                       → nmtui                         
+XF86MonBrightnessDown     → Brightness down                   $mod+Shift+Delete         → htop                          
+$mod+Return               → Terminal                          $mod+apostrophe           → Chrome                        
+
+Reconfigure i3
+----------------------------------------------------------------------------------------------------------------------
+$mod+Shift+c              → Reload config                     $mod+Shift+r              → Restart in place              
+
+Containers and windows
+----------------------------------------------------------------------------------------------------------------------
+$mod+q                    → Close window                      $mod+s                    → layout stacking               
+$mod+Shift+q              → Clear workspace                   $mod+w                    → layout tabbed                 
+$mod+Left                 → focus left                        $mod+e                    → layout toggle split           
+$mod+Down                 → focus down                        $mod+Shift+space          → floating toggle               
+$mod+Up                   → focus up                          $mod+space                → focus mode toggle             
+$mod+Right                → focus right                       $mod+Shift+s              → sticky toggle                 
+$mod+Shift+Left           → move left                         $mod+Shift+minus          → move to scratchpad            
+$mod+Shift+Down           → move down                         $mod+minus                → scratchpad show               
+$mod+Shift+Up             → move up                           $mod+a                    → focus parent                  
+$mod+Shift+Right          → move right                        $mod+Shift+a              → focus child                   
+$mod+h                    → split h                           $mod+u                    → border none                   
+$mod+v                    → split v                           $mod+y                    → border normal                 
+$mod+f                    → fullscreen toggle                                           →                               
+
+Binding modes
+----------------------------------------------------------------------------------------------------------------------
+$mod+r                    → resize                            F1                        → Conky                         
+$mod+0                    → mode_system                                                 →                               
+
+Workspaces
+----------------------------------------------------------------------------------------------------------------------
+$mod+1..6                 → workspace 1..6                    $mod+Ctrl+Right           → workspace next                
+$mod+Shift+1..6           → move container to ws1..6          $mod+Ctrl+Left            → workspace prev                
+
