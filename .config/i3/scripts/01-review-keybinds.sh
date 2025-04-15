@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-INPUT_FILE="bindings.json"         # original input
-OUTPUT_FILE="cleaned_bindings.json"
+INPUT_FILE="raw-bindings.json"         # original input
+OUTPUT_FILE="cleaned-bindings.json"
 TEMP_FILE=$(mktemp)
 
 echo "[" > "$TEMP_FILE"

@@ -1,0 +1,42 @@
+${color white}Reconfigure i3
+${hr}
+${color grey}mod+Shift+c              ${color white} Reload config                     ${color grey}mod+Shift+r              ${color white} Restart in place              
+
+${color white}System
+${hr}
+${color grey}F1                       ${color white} Help dialog                       ${color grey}mod+BackSpace            ${color white} Close last message            
+${color grey}XF86AudioRaiseVolume     ${color white} Raise volume                      ${color grey}mod+Shift+BackSpace      ${color white} Close all messages            
+${color grey}XF86AudioLowerVolume     ${color white} Lower volume                      ${color grey}mod+Shift+p              ${color white} Start Picom                   
+${color grey}XF86AudioMute            ${color white} Toggle mute                       ${color grey}mod+p                    ${color white} Stop Picom                    
+${color grey}XF86MonBrightnessUp      ${color white} Brightness up                     ${color grey}mod+0                    ${color white} Shutdown options              
+${color grey}XF86MonBrightnessDown    ${color white} Brightness down                   ${color grey}                         ${color white}                               
+
+${color white}Application shortcuts
+${hr}
+${color grey}mod+Return               ${color white} Terminal                          ${color grey}mod+apostrophe           ${color white} Chrome                        
+${color grey}mod+d                    ${color white} dmenu-run                         ${color grey}mod+Shift+apostrophe     ${color white} File browser                  
+${color grey}F4                       ${color white} arandr                            ${color grey}mod+Print                ${color white} scrot                         
+${color grey}F5                       ${color white} Pavucontrol                       ${color grey}mod+Shift+Print          ${color white} scrot --select                
+${color grey}F12                      ${color white} nmtui                             ${color grey}mod+Ctrl+Print           ${color white} scrot --focused               
+${color grey}mod+Shift+Delete         ${color white} htop                              ${color grey}mod+c                    ${color white} Conky                         
+
+${color white}Containers and windows
+${hr}
+${color grey}mod+q                    ${color white} Close window                      ${color grey}mod+r                    ${color white} Resize                        
+${color grey}mod+Shift+q              ${color white} Clear workspace                   ${color grey}mod+f                    ${color white} Fullscreen                    
+${color grey}mod+Left                 ${color white} Focus left                        ${color grey}mod+s                    ${color white} Stacking layout               
+${color grey}mod+Down                 ${color white} Focus down                        ${color grey}mod+w                    ${color white} Tabbed layout                 
+${color grey}mod+Up                   ${color white} Focus up                          ${color grey}mod+e                    ${color white} Split layout                  
+${color grey}mod+Right                ${color white} Focus right                       ${color grey}mod+h                    ${color white} Split h                       
+${color grey}mod+a                    ${color white} Focus parent                      ${color grey}mod+v                    ${color white} Split v                       
+${color grey}mod+Shift+a              ${color white} Focus child                       ${color grey}mod+Shift+space          ${color white} Toggle floating               
+${color grey}mod+Shift+Left           ${color white} Move left                         ${color grey}mod+space                ${color white} Toggle focus                  
+${color grey}mod+Shift+Down           ${color white} Move down                         ${color grey}mod+Shift+minus          ${color white} Move to scratchpad            
+${color grey}mod+Shift+Up             ${color white} Move up                           ${color grey}mod+minus                ${color white} Show scratchpad               
+${color grey}mod+Shift+Right          ${color white} Move right                        ${color grey}mod+u                    ${color white} Border none                   
+${color grey}mod+Shift+s              ${color white} Stick to glass                    ${color grey}mod+y                    ${color white} Border normal                 
+
+${color white}Workspaces
+${hr}
+${color grey}mod+1..6                 ${color white} workspace 1..6                    ${color grey}mod+Ctrl+Right           ${color white} workspace next                
+${color grey}mod+Shift+1..6           ${color white} move container to...              ${color grey}mod+Ctrl+Left            ${color white} workspace prev                

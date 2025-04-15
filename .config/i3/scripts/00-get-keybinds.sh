@@ -44,7 +44,7 @@ done
 flush_section
 
 # Output
-output_file="bindings.json"
+output_file="raw-bindings.json"
 cp "$tmp_json" "$output_file"
 rm "$tmp_json"
 

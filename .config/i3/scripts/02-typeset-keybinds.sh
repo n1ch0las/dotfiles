@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Configuration
-INPUT_JSON="./cleaned_bindings.json"
-OUTPUT_FILE="test.txt"
+INPUT_JSON="./cleaned-bindings.json.tmp"
+OUTPUT_FILE="typeset-bindings.tmp"
 KEY_WIDTH=25
 COMMAND_WIDTH=30
 COLUMN_SPACING=4
