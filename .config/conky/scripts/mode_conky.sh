@@ -35,11 +35,14 @@ case "$ACTION" in
         PREV_INDEX=$(( (INDEX - 1 + ${#CONFIGS[@]}) % ${#CONFIGS[@]} ))
         conky -c "${CONFIGS[$PREV_INDEX]}" -D &
         ;;
-    "")
+    show_monitor|"")
         conky -c "${CONFIGS[0]}" -D &
         ;;
+    show_help)
+        conky -c "${CONFIGS[1]}" -D &
+        ;;
     *)
-        notify-send "mode_conky: Conky failed to start."
+        notify-send "mode_conky: Conky failed to start."22
         ;;
 esac
 
