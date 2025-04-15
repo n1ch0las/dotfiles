@@ -1,7 +1,8 @@
 ${color white}Processes
 ${hr}
-${color grey}mod+Shift+p              ${color white} Start Picom                       ${color grey}mod+BackSpace            ${color white} Close last message            
-${color grey}mod+p                    ${color white} Stop Picom                        ${color grey}mod+Shift+BackSpace      ${color white} Close all messages            
+${color grey}mod+Shift+p              ${color white} Start Picom                       ${color grey}mod+d                    ${color white} dmenu-run                     
+${color grey}mod+p                    ${color white} Stop Picom                        ${color grey}mod+BackSpace            ${color white} Close last message            
+${color grey}mod+Shift+g              ${color white} Kill Conky                        ${color grey}mod+Shift+BackSpace      ${color white} Close all messages            
 ${color grey}XF86AudioRaiseVolume     ${color white} Raise volume                      ${color grey}mod+Print                ${color white} scrot                         
 ${color grey}XF86AudioLowerVolume     ${color white} Lower volume                      ${color grey}mod+Shift+Print          ${color white} scrot --select                
 ${color grey}XF86AudioMute            ${color white} Toggle mute                       ${color grey}mod+Ctrl+Print           ${color white} scrot --focused               
@@ -9,7 +10,6 @@ ${color grey}F5                       ${color white} Pavucontrol                
 ${color grey}XF86MonBrightnessUp      ${color white} Brightness up                     ${color grey}F12                      ${color white} nmtui                         
 ${color grey}XF86MonBrightnessDown    ${color white} Brightness down                   ${color grey}mod+Shift+Delete         ${color white} htop                          
 ${color grey}mod+Return               ${color white} Terminal                          ${color grey}mod+apostrophe           ${color white} Chrome                        
-${color grey}mod+d                    ${color white} dmenu-run                         ${color grey}                         ${color white}                               
 
 ${color white}Reconfigure i3
 ${hr}
@@ -33,10 +33,10 @@ ${color grey}mod+f                    ${color white} fullscreen toggle          
 
 ${color white}Binding modes
 ${hr}
-${color grey}mod+r                    ${color white} resize                            ${color grey}F1                       ${color white} Conky - show help             
-${color grey}mod+0                    ${color white} mode_system                       ${color grey}mod+c                    ${color white} Conky - sys mon               
+${color grey}mod+r                    ${color white} resize                            ${color grey}F1                       ${color white} Conky                         
+${color grey}mod+0                    ${color white} mode_system                       ${color grey}                         ${color white}                               
 
 ${color white}Workspaces
 ${hr}
 ${color grey}mod+1..6                 ${color white} workspace 1..6                    ${color grey}mod+Ctrl+Right           ${color white} workspace next                
-${color grey}mod+Shift+1..6           ${color white} move container to...              ${color grey}mod+Ctrl+Left            ${color white} workspace prev                
+${color grey}mod+Shift+1..6           ${color white} move container to ws1..6          ${color grey}mod+Ctrl+Left            ${color white} workspace prev                

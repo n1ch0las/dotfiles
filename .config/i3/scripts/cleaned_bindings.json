@@ -2,7 +2,6 @@
   { "section": "Processes", "bindings": [
     { "key": "mod+Shift+p", "command": "Start Picom" },
     { "key": "mod+p", "command": "Stop Picom" },
-    { "key": "mod+Shift+g", "command": "Kill Conky" },
     { "key": "XF86AudioRaiseVolume", "command": "Raise volume" },
     { "key": "XF86AudioLowerVolume", "command": "Lower volume" },
     { "key": "XF86AudioMute", "command": "Toggle mute" },
@@ -55,11 +54,12 @@
   { "section": "Binding modes", "bindings": [
     { "key": "mod+r", "command": "resize" },
     { "key": "mod+0", "command": "mode_system" },
-    { "key": "F1", "command": "Conky" }
+    { "key": "F1", "command": "Conky - show help" },
+    { "key": "mod+c", "command": "Conky - sys mon" }
   ]},
   { "section": "Workspaces", "bindings": [
     { "key": "mod+1..6", "command": "workspace 1..6" },
-    { "key": "mod+Shift+1..6", "command": "move container to ws1..6" },
+    { "key": "mod+Shift+1..6", "command": "move container to..." },
     { "key": "mod+Ctrl+Right", "command": "workspace next" },
     { "key": "mod+Ctrl+Left", "command": "workspace prev" }
   ]}
