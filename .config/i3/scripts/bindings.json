@@ -1,0 +1,343 @@
+[
+  {
+    "section": "Executing apps",
+    "bindings": [
+      {
+        "key": "$mod+Shift+p",
+        "command": "exec --no-startup-id picom -b && notify-send -t 1500 'Picom started'"
+      },
+      {
+        "key": "$mod+p",
+        "command": "exec --no-startup-id pkill picom && notify-send -t 1500 'Picom stopped'"
+      },
+      {
+        "key": "$mod+Shift+g",
+        "command": "exec --no-startup-id pkill conky"
+      },
+      {
+        "key": "XF86AudioRaiseVolume",
+        "command": "exec --no-startup-id ~/.volume/volume.sh up"
+      },
+      {
+        "key": "XF86AudioLowerVolume",
+        "command": "exec --no-startup-id  ~/.volume/volume.sh down"
+      },
+      {
+        "key": "XF86AudioMute",
+        "command": "exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle"
+      },
+      {
+        "key": "F5",
+        "command": "exec pavucontrol"
+      },
+      {
+        "key": "XF86MonBrightnessUp",
+        "command": "exec --no-startup-id brightnessctl -d \"intel_backlight\" s +39"
+      },
+      {
+        "key": "XF86MonBrightnessDown",
+        "command": "exec --no-startup-id brightnessctl -d \"intel_backlight\" s 39-"
+      },
+      {
+        "key": "$mod+Return",
+        "command": "exec i3-sensible-terminal"
+      },
+      {
+        "key": "$mod+d",
+        "command": "exec --no-startup-id dmenu_run"
+      },
+      {
+        "key": "$mod+BackSpace",
+        "command": "exec --no-startup-id dunstctl close"
+      },
+      {
+        "key": "$mod+Shift+BackSpace",
+        "command": "exec --no-startup-id dunstctl close-all"
+      },
+      {
+        "key": "$mod+Print",
+        "command": "exec ~/.screenshot/scrot.sh"
+      },
+      {
+        "key": "$mod+Shift+Print",
+        "command": "exec ~/.screenshot/scrot.sh selection"
+      },
+      {
+        "key": "$mod+Ctrl+Print",
+        "command": "exec ~/.screenshot/scrot.sh window"
+      },
+      {
+        "key": "F4",
+        "command": "exec arandr"
+      },
+      {
+        "key": "F12",
+        "command": "exec i3-sensible-terminal -e nmtui"
+      },
+      {
+        "key": "$mod+Shift+Delete",
+        "command": "exec i3-sensible-terminal -e htop"
+      },
+      {
+        "key": "$mod+apostrophe",
+        "command": "exec google-chrome-stable"
+      }
+    ]
+  },
+  {
+    "section": "Reconfigure i3",
+    "bindings": [
+      {
+        "key": "$mod+Shift+c",
+        "command": "reload"
+      },
+      {
+        "key": "$mod+Shift+r",
+        "command": "restart"
+      }
+    ]
+  },
+  {
+    "section": "Containers and windows",
+    "bindings": [
+      {
+        "key": "$mod+q",
+        "command": "kill"
+      },
+      {
+        "key": "$mod+Shift+q",
+        "command": "exec --no-startup-id ~/.wm/clear-current-workspace.sh"
+      },
+      {
+        "key": "$mod+Left",
+        "command": "focus left"
+      },
+      {
+        "key": "$mod+Down",
+        "command": "focus down"
+      },
+      {
+        "key": "$mod+Up",
+        "command": "focus up"
+      },
+      {
+        "key": "$mod+Right",
+        "command": "focus right"
+      },
+      {
+        "key": "$mod+Shift+Left",
+        "command": "move left"
+      },
+      {
+        "key": "$mod+Shift+Down",
+        "command": "move down"
+      },
+      {
+        "key": "$mod+Shift+Up",
+        "command": "move up"
+      },
+      {
+        "key": "$mod+Shift+Right",
+        "command": "move right"
+      },
+      {
+        "key": "$mod+h",
+        "command": "split h"
+      },
+      {
+        "key": "$mod+v",
+        "command": "split v"
+      },
+      {
+        "key": "$mod+f",
+        "command": "fullscreen toggle"
+      },
+      {
+        "key": "$mod+s",
+        "command": "layout stacking"
+      },
+      {
+        "key": "$mod+w",
+        "command": "layout tabbed"
+      },
+      {
+        "key": "$mod+e",
+        "command": "layout toggle split"
+      },
+      {
+        "key": "$mod+Shift+space",
+        "command": "floating toggle"
+      },
+      {
+        "key": "$mod+space",
+        "command": "focus mode_toggle"
+      },
+      {
+        "key": "$mod+Shift+s",
+        "command": "sticky toggle"
+      },
+      {
+        "key": "$mod+Shift+minus",
+        "command": "move scratchpad"
+      },
+      {
+        "key": "$mod+minus",
+        "command": "scratchpad show"
+      },
+      {
+        "key": "$mod+a",
+        "command": "focus parent"
+      },
+      {
+        "key": "$mod+Shift+a",
+        "command": "focus child"
+      },
+      {
+        "key": "$mod+u",
+        "command": "border none"
+      },
+      {
+        "key": "$mod+y",
+        "command": "border normal"
+      }
+    ]
+  },
+  {
+    "section": "Binding modes",
+    "bindings": [
+      {
+        "key": "Left",
+        "command": "resize shrink width 10 px or 10 ppt"
+      },
+      {
+        "key": "Down",
+        "command": "resize grow height 10 px or 10 ppt"
+      },
+      {
+        "key": "Up",
+        "command": "resize shrink height 10 px or 10 ppt"
+      },
+      {
+        "key": "Right",
+        "command": "resize grow width 10 px or 10 ppt"
+      },
+      {
+        "key": "Return",
+        "command": "mode \"default\""
+      },
+      {
+        "key": "Escape",
+        "command": "mode \"default\""
+      },
+      {
+        "key": "$mod+r",
+        "command": "mode \"default\""
+      },
+      {
+        "key": "$mod+r",
+        "command": "mode \"resize\""
+      },
+      {
+        "key": "Shift+s",
+        "command": "exec --no-startup-id shutdown now, mode \"default\""
+      },
+      {
+        "key": "r",
+        "command": "exec --no-startup-id reboot, mode \"default\""
+      },
+      {
+        "key": "e",
+        "command": "exec --no-startup-id i3-msg exit, mode \"default\""
+      },
+      {
+        "key": "Return",
+        "command": "mode \"default\""
+      },
+      {
+        "key": "Escape",
+        "command": "mode \"default\""
+      },
+      {
+        "key": "$mod+0",
+        "command": "mode \"$mode_system\""
+      },
+      {
+        "key": "n",
+        "command": "exec --no-startup-id ~/.config/conky/scripts/mode_conky.sh prev"
+      },
+      {
+        "key": "v",
+        "command": "exec --no-startup-id ~/.config/conky/scripts/mode_conky.sh next"
+      },
+      {
+        "key": "Escape",
+        "command": "exec --no-startup-id killall conky, mode \"default\""
+      },
+      {
+        "key": "F1",
+        "command": "exec --no-startup-id ~/.config/conky/scripts/mode_conky.sh, mode \"$mode_conky\""
+      }
+    ]
+  },
+  {
+    "section": "Workspaces",
+    "bindings": [
+      {
+        "key": "$mod+1",
+        "command": "workspace number $ws1"
+      },
+      {
+        "key": "$mod+2",
+        "command": "workspace number $ws2"
+      },
+      {
+        "key": "$mod+3",
+        "command": "workspace number $ws3"
+      },
+      {
+        "key": "$mod+4",
+        "command": "workspace number $ws4"
+      },
+      {
+        "key": "$mod+5",
+        "command": "workspace number $ws5"
+      },
+      {
+        "key": "$mod+6",
+        "command": "workspace number $ws6"
+      },
+      {
+        "key": "$mod+Shift+1",
+        "command": "move container to workspace number $ws1"
+      },
+      {
+        "key": "$mod+Shift+2",
+        "command": "move container to workspace number $ws2"
+      },
+      {
+        "key": "$mod+Shift+3",
+        "command": "move container to workspace number $ws3"
+      },
+      {
+        "key": "$mod+Shift+4",
+        "command": "move container to workspace number $ws4"
+      },
+      {
+        "key": "$mod+Shift+5",
+        "command": "move container to workspace number $ws5"
+      },
+      {
+        "key": "$mod+Shift+6",
+        "command": "move container to workspace number $ws6"
+      },
+      {
+        "key": "$mod+Ctrl+Right",
+        "command": "workspace next"
+      },
+      {
+        "key": "$mod+Ctrl+Left",
+        "command": "workspace prev"
+      }
+    ]
+  }
+]
