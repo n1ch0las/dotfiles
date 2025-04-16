@@ -4,7 +4,7 @@ ${color grey}mod+Shift+c              ${color white} Reload config              
 
 ${color white}System
 ${hr}
-${color grey}F1                       ${color white} Help dialog                       ${color grey}mod+BackSpace            ${color white} Close last message            
+${color grey}F1                       ${color white} Help                              ${color grey}mod+BackSpace            ${color white} Close last message            
 ${color grey}XF86AudioRaiseVolume     ${color white} Raise volume                      ${color grey}mod+Shift+BackSpace      ${color white} Close all messages            
 ${color grey}XF86AudioLowerVolume     ${color white} Lower volume                      ${color grey}mod+Shift+p              ${color white} Start Picom                   
 ${color grey}XF86AudioMute            ${color white} Toggle mute                       ${color grey}mod+p                    ${color white} Stop Picom                    
@@ -13,12 +13,12 @@ ${color grey}XF86MonBrightnessDown    ${color white} Brightness down            
 
 ${color white}Application shortcuts
 ${hr}
-${color grey}mod+Return               ${color white} Terminal                          ${color grey}mod+apostrophe           ${color white} Chrome                        
+${color grey}mod+Return               ${color white} xterm                             ${color grey}mod+apostrophe           ${color white} Google Chrome                        
 ${color grey}mod+d                    ${color white} dmenu-run                         ${color grey}mod+Shift+apostrophe     ${color white} File browser                  
-${color grey}F4                       ${color white} arandr                            ${color grey}mod+Print                ${color white} scrot                         
-${color grey}F5                       ${color white} Pavucontrol                       ${color grey}mod+Shift+Print          ${color white} scrot --select                
-${color grey}F12                      ${color white} nmtui                             ${color grey}mod+Ctrl+Print           ${color white} scrot --focused               
-${color grey}mod+Shift+Delete         ${color white} htop                              ${color grey}mod+c                    ${color white} Conky                         
+${color grey}F4                       ${color white} arandr                            ${color grey}mod+c                    ${color white} Conky     
+${color grey}F5                       ${color white} pavucontrol                       ${color grey}mod+Print                ${color white} scrot                                  
+${color grey}F12                      ${color white} nmtui                             ${color grey}mod+Shift+Print          ${color white} scrot --select                
+${color grey}mod+Shift+Delete         ${color white} htop                              ${color grey}mod+Ctrl+Print           ${color white} scrot --focused                         
 
 ${color white}Containers and windows
 ${hr}
@@ -38,5 +38,5 @@ ${color grey}mod+Shift+s              ${color white} Stick to glass             
 
 ${color white}Workspaces
 ${hr}
-${color grey}mod+1..6                 ${color white} workspace 1..6                    ${color grey}mod+Ctrl+Right           ${color white} workspace next                
-${color grey}mod+Shift+1..6           ${color white} move container to...              ${color grey}mod+Ctrl+Left            ${color white} workspace prev                
+${color grey}mod+1..6                 ${color white} Workspace 1..6                    ${color grey}mod+Ctrl+Left            ${color white} Previous                
+${color grey}mod+Shift+1..6           ${color white} Move container to...              ${color grey}mod+Ctrl+Right           ${color white} Next                

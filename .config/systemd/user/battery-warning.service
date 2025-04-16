@@ -3,4 +3,4 @@ Description=Battery Low Warning
 
 [Service]
 Type=oneshot
-ExecStart=/home/mentat/.battery/battery-warning.sh
+ExecStart=/home/mentat/.battery-warning.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THRESHOLD=15
+THRESHOLD=98
 
 BATTERY=$(cat /sys/class/power_supply/BAT1/capacity)
 STATE=$(cat /sys/class/power_supply/BAT1/status)
