@@ -45,8 +45,10 @@ nano
 network-manager-applet
 networkmanager
 noto-fonts-cjk
+noto-fonts-emoji
 numlockx
 otf-ipafont
+pacman-contrib
 pavucontrol
 picom
 pkgstats
@@ -66,6 +68,7 @@ wget
 wireless_tools
 wol
 xdg-utils
+xdotool
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau
