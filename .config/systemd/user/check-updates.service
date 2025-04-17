@@ -1,0 +1,6 @@
+[Unit]
+Description=Notify of available system updates
+
+[Service]
+Type=oneshot
+ExecStart=/home/mentat/.check-updates.sh
