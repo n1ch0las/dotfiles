@@ -9,6 +9,7 @@ broadcom-wl
 conky
 cups
 dmenu
+dmidecode
 dunst
 efibootmgr
 ethtool
