@@ -31,6 +31,5 @@ separator_block_width=15
 #interval=1
 
 [time]
-#command=date '+%Y-%m-%d %H:%M:%S'
 command=date '+%H:%M' | sed 's/$/ /'
 interval=5
