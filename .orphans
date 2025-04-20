@@ -1,8 +1,5 @@
-cmake
-dht
 go
-gtkmm3
-intltool
 libtorrent
 tinyxml2
+transmission-gtk3-debug
 vulkan-headers
