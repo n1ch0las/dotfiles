@@ -14,7 +14,7 @@ export INPUT_METHOD=fcitx
 # If you want to disable it more widely, try loading a custom keymap in /etc/vconsole.conf
 xmodmap ~/.xmodmap
 
-# Set terminal theme
+# Set terminal theme and cursor theme
 xrdb -merge ~/.Xresources
 
 # Start the window manager

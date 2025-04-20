@@ -1,3 +1,5 @@
 ! We can use a relative path as long as the .Xresources file and 
 ! the theme files are in the same folder structure
 #include "Warez/Git/Xresources-themes/iterm-Grass.Xresources"
+
+Xcursor.theme: Chicago95_Animated_Hourglass_Cursors
