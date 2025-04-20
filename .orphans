@@ -1,4 +1,8 @@
+cmake
+dht
 go
+gtkmm3
+intltool
 libtorrent
 tinyxml2
 vulkan-headers
