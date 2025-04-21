@@ -23,10 +23,8 @@ BEGIN {
 }
 /^GENERAL.STATE:/ && (dev=="wlan0" || dev=="enp7s0") {
   match($0, /\(([^)]+)\)/, m)
-  state = m[1]
-  if (index(state, "connecting") == 1) {
-    state = "getting IP config..."
-  }
+  split(m[1], w, " ")
+  state = w[1]  
 }
 /^GENERAL.CONNECTION:/ && (dev=="wlan0" || dev=="enp7s0") {
   conn=substr($0, index($0,$2))
