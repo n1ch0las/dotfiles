@@ -2,7 +2,7 @@
 
 # Output directory and filename
 dir=~/Pictures/Screenshots
-file="$dir/scrot_$(date +%F_%H:%M:%S).png"
+file="$dir/screenshot_$(date +%F_%H:%M:%S).png"
 
 # Display name (from xrandr)
 display="eDP-1"
@@ -21,23 +21,11 @@ case $mode in
     fi
     ;;
   "selection")
-    # Kill picom if running as it interferes with selection
-    #if pgrep -x "picom" > /dev/null; then
-     #   killall picom
-     #   picom_was_running=true
-    #else
-     #   picom_was_running=false
-    #fi
-
-    # Screenshot of selected region
-    if scrot --select "$file"; then
+    # Screenshot of selected region, uses maim because it plays
+    # nice with Picom
+    if maim -s "$file"; then
         success=true
     fi
-    
-    # Restart picom if necessary
-    #if [ "$picom_was_running" = true ]; then
-    #    picom &
-    #fi
     ;;
   *)
     # default to fullscreen shot
