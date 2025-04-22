@@ -42,7 +42,8 @@ case "$ACTION" in
         conky -c "${CONFIGS[1]}" -D &
         ;;
     *)
-        notify-send "mode_conky: Conky failed to start."22
+        notify-send "~/.mode_conky.sh" " Conky failed to start"
+        exit 1
         ;;
 esac
 
