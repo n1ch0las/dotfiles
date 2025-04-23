@@ -7,7 +7,7 @@ ${hr}
 ${color grey}XF86AudioRaiseVolume     ${color white} Raise volume                      ${color grey}mod+BackSpace           ${color white} Close last message            
 ${color grey}XF86AudioLowerVolume     ${color white} Lower volume                      ${color grey}mod+Shift+BackSpace     ${color white} Close all messages                  
 ${color grey}XF86AudioMute            ${color white} Toggle mute                       ${color grey}mod+p                   ${color white} Picom                     
-${color grey}XF86MonBrightnessUp      ${color white} Brightness up                     ${color grey}F1                      ${color white} Conky               
+${color grey}XF86MonBrightnessUp      ${color white} Brightness up                     ${color grey}mod+c                   ${color white} Conky               
 ${color grey}XF86MonBrightnessDown    ${color white} Brightness down                   ${color grey}mod+0                   ${color white} Shutdown options                              
 
 ${color white}Application shortcuts
